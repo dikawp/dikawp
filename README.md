@@ -1,5 +1,3 @@
-<br clear="both">
-
 # 👋 Hi, I'm [Dika](https://github.com/dikawp/). Welcome to my GitHub Profile
 
 <img align="right" height="160" src="https://media1.tenor.com/m/k5ZMNTBHHDoAAAAC/skadi-arknights.gif"  />
