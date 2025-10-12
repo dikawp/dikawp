@@ -12,7 +12,7 @@
       'name' => 'Ramadika Wijaya P.S',
       'pronouns' => 'he/him',
       'onFocus' => 'Web Development',
-      'website' => 'https://dikawp.github.io/dkwp',
+      'website' => 'https://dikawp.vercel.app/',
       'email' => 'ramadika380@gmail.com'
   ];
 ```
