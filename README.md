@@ -2,7 +2,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dikawp_16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ramadika-wijaya-poetra-s-9b9b74221) 
 
 <div style="display: flex; flex-direction: row;">
-  <img height="180em" src="https://media1.tenor.com/m/34qNY2r67PgAAAAC/hi-hi-there.gif" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:01A2D1,100:3B82F6&height=220&section=header&text=Ramadika%20Wijaya&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Back-End%20Web%20Developer%20%7C%20Software%20Engineer&descAlignY=62&descAlign=50" width="69%"/>
   <img height="180em" src="https://media1.tenor.com/m/k5ZMNTBHHDoAAAAC/skadi-arknights.gif" />
 </div>
 
@@ -22,7 +22,7 @@
 
 
 ## 📊 Github Stats  
-<div align="center">
+<div align="start">
   <td>
     <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=dikawp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
   </td>
