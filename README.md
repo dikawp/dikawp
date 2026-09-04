@@ -3,10 +3,11 @@
 
 <table>
   <tr>
-    <td width="65%">
+    <td width="65%" align="center" valign="top">
       <img src="https://capsule-render.vercel.app/api?type=waving&color=0:01A2D1,100:3B82F6&height=220&section=header&text=Ramadika%20Wijaya&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Back-End%20Web%20Developer%20%7C%20Software%20Engineer&descAlignY=62&descAlign=50" width="100%"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=550&lines=Hi+there%2C+I'm+Dika+%F0%9F%91%8B;Turning+Latte+into+Code+%E2%98%95;Passionate+about+Clean+Architecture;Open+to+Collaboration+and+New+Ideas" alt="Typing SVG" />
     </td>
-    <td width="30%" align="center">
+    <td width="30%" align="center" valign="middle">
       <img src="https://media1.tenor.com/m/k5ZMNTBHHDoAAAAC/skadi-arknights.gif" width="100%"/>
     </td>
   </tr>
