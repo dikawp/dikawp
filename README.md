@@ -3,7 +3,7 @@
 
 <div style="display: flex; flex-direction: row;">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:01A2D1,100:3B82F6&height=220&section=header&text=Ramadika%20Wijaya&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Back-End%20Web%20Developer%20%7C%20Software%20Engineer&descAlignY=62&descAlign=50" width="65%" height="210em"/>
-  <img height="180em" src="https://media1.tenor.com/m/k5ZMNTBHHDoAAAAC/skadi-arknights.gif" width="35%" height="210em" />
+  <img height="180em" src="https://media1.tenor.com/m/k5ZMNTBHHDoAAAAC/skadi-arknights.gif" width="30%" />
 </div>
 
 # 👦 About Me
