@@ -36,5 +36,4 @@
   <td>
     <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
   </td>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dikawp&theme=tokyonight" alt="Profile Details" />
 </div>
