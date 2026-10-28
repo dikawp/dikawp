@@ -14,14 +14,24 @@
 </table>
 
 # 👦 About Me
-```php
-  $dikawp = [
-      'name' => 'Ramadika Wijaya P.S',
-      'pronouns' => 'he/him',
-      'onFocus' => 'Web Development',
-      'website' => 'https://dikawp.vercel.app/',
-      'email' => 'ramadika380@gmail.com'
-  ];
+```go
+var dikawp = map[string]any{
+    "name":     "Ramadika Wijaya P.S",
+    "pronouns": "he/him",
+    "location": "Surabaya, Indonesia",
+    "role":     "Back-End Developer",
+    "focus":    "Web Development",
+
+    "techStack": map[string][]string{
+        "languages":  {"PHP", "C#", "Go", "JavaScript"},
+        "frameworks": {"Laravel", ".NET", "Vue"},
+        "databases":  {"MySQL", "PostgreSQL"},
+        "tools":      {"Git", "Docker", "Postman"},
+    },
+
+    "website": "https://dikawp.vercel.app/",
+    "email":   "ramadika380@gmail.com",
+}
 ```
 
 ## 💻 Tech & Stack  
