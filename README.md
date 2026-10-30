@@ -23,10 +23,10 @@ var dikawp = map[string]any{
     "focus":    "Web Development",
 
     "techStack": map[string][]string{
-        "languages":  {"PHP", "C#", "Go", "JavaScript"},
-        "frameworks": {"Laravel", ".NET", "Vue"},
-        "databases":  {"MySQL", "PostgreSQL"},
-        "tools":      {"Git", "Docker", "Postman"},
+        "languages":  {"PHP", "C#", "Go", "JavaScript", "Python"},
+        "frameworks": {"Laravel", ".NET", "Vue", "Next.js"},
+        "databases":  {"MySQL", "PostgreSQL", "Firebase", "Supabase"},
+        "tools":      {"Git", "Docker", "Postman", "Apidog"},
     },
 
     "website": "https://dikawp.vercel.app/",
