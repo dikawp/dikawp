@@ -8,7 +8,7 @@
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=550&lines=Yahallo%2C+I'm+Dika+%F0%9F%91%8B;Turning+Latte+into+Code+%E2%98%95;Passionate+about+Clean+Architecture;01101001+00100000+01101100+01101111+01110110+01100101+00100000+01110011+01101011+01100001+01100100+01101001" alt="Typing SVG" />
     </td>
     <td width="30%" align="center" valign="middle">
-      <img src="https://media.tenor.com/g-8_Nj3TjFYAAAAi/elysia-honkai.gif" width="100%"/>
+      <img src="https://media.tenor.com/g-8_Nj3TjFYAAAAi/elysia-honkai.gif" width="60%"/>
     </td>
   </tr>
 </table>
