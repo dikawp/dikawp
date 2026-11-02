@@ -1,11 +1,11 @@
-# 👋 Hi, I'm [Dika](https://github.com/dikawp/). Welcome to my GitHub Profile
+# 👋 Hi, I'm <a href="https://github.com/dikawp/"><img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=32&duration=1&pause=1000&color=FF69B4&background=00000000&vCenter=true&width=68&height=30&lines=Dika" valign="bottom" alt="Dika" /></a>. Welcome to my GitHub Profile
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dikawp_16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ramadika-wijaya-poetra-s-9b9b74221) 
 
 <table>
   <tr>
     <td width="65%" align="center" valign="top">
       <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF69B4,100:FFB6C1&height=175&section=header&text=Ramadika%20Wijaya&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Back-End%20Web%20Developer%20%7C%20Software%20Engineer&descAlignY=70&descAlign=50" width="100%"/>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=550&lines=Yahallo%2C+I'm+Dika+%F0%9F%91%8B;Turning+Latte+into+Code+%E2%98%95;Passionate+about+Clean+Architecture;01100101+01101100+01111001+01110011+01101001+01100001" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=550&lines=Yahallo%2C+I'm+Dika+%F0%9F%91%8B;Turning+Latte+into+Code+%E2%98%95;Passionate+about+Clean+Architecture;01100101+01101100+01111001+01110011+01101001+01100001" alt="Typing SVG" />
     </td>
     <td width="30%" align="center" valign="middle">
       <img src="https://media.tenor.com/g-8_Nj3TjFYAAAAi/elysia-honkai.gif" width="65%"/>
