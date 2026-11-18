@@ -29,7 +29,7 @@ var dikawp = map[string]any{
         "tools":      {"Git", "Docker", "Postman", "Apidog"},
     },
 
-    "website": "https://dikawp.vercel.app/",
+    "website": "https://dikawp.my.id/",
     "email":   "ramadika380@gmail.com",
 }
 ```
