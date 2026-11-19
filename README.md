@@ -40,10 +40,7 @@ var dikawp = map[string]any{
 
 ## 📊 Github Stats  
 <div align="start">
-  <td>
-    <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=dikawp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
-  </td>
-  <td>
-    <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </td>
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=dikawp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
 </div>
+<img src="https://count.getloli.com/@:dikawp?theme=eva&padding=7&scale=1&align=top&pixelated=1&darkmode=auto" alt="profile views" />
