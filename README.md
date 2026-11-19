@@ -24,7 +24,7 @@ var dikawp = map[string]any{
 
     "techStack": map[string][]string{
         "languages":  {"PHP", "C#", "Go", "JavaScript", "Python"},
-        "frameworks": {"Laravel", ".NET", "Vue", "Next.js"},
+        "frameworks": {"Laravel", ".NET", "Vue", "Next.js", Elysia.js},
         "databases":  {"MySQL", "PostgreSQL", "Firebase", "Supabase"},
         "tools":      {"Git", "Docker", "Postman", "Apidog"},
     },
