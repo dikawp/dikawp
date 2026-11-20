@@ -13,7 +13,11 @@
   </tr>
 </table>
 
-# 👦 About Me
+<picture>
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/about.svg" />
+  <img src="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/about.svg" width="100%" alt="About Me" />
+</picture>
+
 ```go
 var dikawp = map[string]any{
     "name":     "Ramadika Wijaya P.S",
@@ -54,7 +58,11 @@ var dikawp = map[string]any{
 </picture>
 
 
-## 📊 Github Stats  
+<picture>
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/stats.svg" />
+  <img src="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/stats.svg" width="100%" alt="Github Stats" />
+</picture>
+
 <div align="center">
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=dikawp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49.5%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true&card_width=365" width="49.5%" alt="Top Languages" />
