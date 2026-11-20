@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" width="840" height="330">
+  <defs>
+    <style>
+      .title-mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #6e7681;
+      }
+      .section-label {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+      }
+      .item-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        fill: #e2e8f0;
+      }
+      .router-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 11.5px;
+        font-weight: 800;
+        fill: #FFFFFF;
+        letter-spacing: -0.4px;
+      }
+    </style>
+
+    <!-- Main Container Background -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131622" />
+      <stop offset="50%" stop-color="#0f121b" />
+      <stop offset="100%" stop-color="#141826" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06" />
+    </linearGradient>
+
+    <!-- Center Ring & Aura -->
+    <linearGradient id="centerRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <radialGradient id="centerAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.32" />
+      <stop offset="55%" stop-color="#f472b6" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0f121b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glassmorphism Icon Tile -->
+    <linearGradient id="tileBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#252a3d" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#181c2b" stop-opacity="0.88" />
+    </linearGradient>
+
+    <linearGradient id="tileBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06" />
+    </linearGradient>
+
+    <!-- 9Router Orange Gradient -->
+    <linearGradient id="routerBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </linearGradient>
+
+    <!-- Gemini 4-Corner Radial Blends -->
+    <radialGradient id="gemRed" cx="50%" cy="5%" r="65%">
+      <stop offset="0%" stop-color="#EA4335" stop-opacity="1" />
+      <stop offset="70%" stop-color="#EA4335" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gemYellow" cx="5%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#FBBC05" stop-opacity="1" />
+      <stop offset="70%" stop-color="#FBBC05" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gemGreen" cx="45%" cy="95%" r="65%">
+      <stop offset="0%" stop-color="#34A853" stop-opacity="1" />
+      <stop offset="70%" stop-color="#34A853" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Antigravity 4-Color Mesh Blends -->
+    <radialGradient id="agRed" cx="62%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#EA4335" stop-opacity="1" />
+      <stop offset="100%" stop-color="#EA4335" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="agYellow" cx="46%" cy="10%" r="45%">
+      <stop offset="0%" stop-color="#FBBC05" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FBBC05" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="agGreen" cx="28%" cy="34%" r="46%">
+      <stop offset="0%" stop-color="#34A853" stop-opacity="1" />
+      <stop offset="100%" stop-color="#34A853" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Clip Paths -->
+    <clipPath id="geminiClip">
+      <path d="M12 1.2C12.6 1.2 13 2.5 13.7 4.4C14.8 7.5 16.5 9.2 19.6 10.3C21.5 11 22.8 11.4 22.8 12C22.8 12.6 21.5 13 19.6 13.7C16.5 14.8 14.8 16.5 13.7 19.6C13 21.5 12.6 22.8 12 22.8C11.4 22.8 11 21.5 10.3 19.6C9.2 16.5 7.5 14.8 4.4 13.7C2.5 13 1.2 12.6 1.2 12C1.2 11.4 2.5 11 4.4 10.3C7.5 9.2 9.2 7.5 10.3 4.4C11 2.5 11.4 1.2 12 1.2Z" />
+    </clipPath>
+
+    <clipPath id="antigravityClip">
+      <path d="M12 2.4C10.1 2.4 8.7 4 7.7 6.8L2.6 20.1C2.3 20.9 2.9 21.6 3.7 21.6H5.6C6.4 21.6 7.1 21.1 7.4 20.3L9.4 15.6C10.1 14 11 13.4 12 13.4C13 13.4 13.9 14 14.6 15.6L16.6 20.3C16.9 21.1 17.6 21.6 18.4 21.6H20.3C21.1 21.6 21.7 20.9 21.4 20.1L16.3 6.8C15.3 4 13.9 2.4 12 2.4Z" />
+    </clipPath>
+
+    <clipPath id="hermesClip">
+      <rect x="0.5" y="0.5" width="23" height="23" rx="5" />
+    </clipPath>
+
+    <!-- Soft Glow Filter -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Reusable Tile Base (42x42 centered at 0,0) -->
+    <g id="icon-tile">
+      <rect x="-21" y="-21" width="42" height="42" rx="11" fill="url(#tileBg)" stroke="url(#tileBorder)" stroke-width="1" />
+      <rect x="-13" y="-20" width="26" height="1" rx="0.5" fill="#ffffff" opacity="0.25" />
+    </g>
+
+    <!-- ================= MODULAR LOGOS (24x24 centered at -12,-12) ================= -->
+
+    <!-- 1. Gemini (4-color rounded sparkle) -->
+    <g id="logo-gemini" transform="translate(-12, -12)">
+      <g clip-path="url(#geminiClip)">
+        <rect x="0" y="0" width="24" height="24" fill="#3186FF" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#gemGreen)" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#gemYellow)" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#gemRed)" />
+      </g>
+    </g>
+
+    <!-- 2. Claude Code (Pixel mascot / Clawd) -->
+    <g id="logo-claude" transform="translate(-12, -12)">
+      <rect x="4" y="5" width="16" height="11" fill="#D97757" />
+      <rect x="1" y="10" width="3" height="3" fill="#D97757" />
+      <rect x="20" y="10" width="3" height="3" fill="#D97757" />
+      <rect x="5" y="16" width="2" height="3.5" fill="#D97757" />
+      <rect x="8.5" y="16" width="2" height="3.5" fill="#D97757" />
+      <rect x="13.5" y="16" width="2" height="3.5" fill="#D97757" />
+      <rect x="17" y="16" width="2" height="3.5" fill="#D97757" />
+      <rect x="7" y="7.5" width="2.2" height="3.2" fill="#1b1f30" />
+      <rect x="14.8" y="7.5" width="2.2" height="3.2" fill="#1b1f30" />
+    </g>
+
+    <!-- 3. OpenAI ChatGPT (Official exact vector path) -->
+    <g id="logo-chatgpt" transform="translate(-11.5, -11.5) scale(0.96)">
+      <path fill="#FFFFFF" d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.896zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z" />
+    </g>
+
+    <!-- 4. DeepSeek (Curved Blue Whale) -->
+    <g id="logo-deepseek" transform="translate(-12, -12)">
+      <path fill="#4D6BFE" fill-rule="evenodd" d="M22.2 5.4c-.6-.3-1.7.3-2.9 1.4-.6-.8-1.4-2.1-2-2.9-.4-.5-1.1-.3-1.2.4-.2 1.6.1 3.3 1 4.6-.2.8-.6 1.6-1.1 2.2-1.2-2.6-3.2-4.6-5.1-5.6.2-.5.6-1.1 1-1.4.3-.3 0-.8-.5-.7-1.1.2-2.2.7-3 1.2-4 .3-6.9 3.6-6.9 7.8 0 4.6 3.7 8.3 8.5 8.3 1.8 0 3.4-.5 4.8-1.4.5.3 1.5.5 2.6.5.5 0 .8-.5.4-.9-.5-.5-1.1-1-1.6-1.3 1.9-1.8 3.2-4.4 3.5-7.4 1.6-.6 3.1-1.9 3.8-3.5.2-.6.1-1.1-.3-1.3zM10.1 18.6c-3.6 0-6.5-2.8-6.5-6.2 0-1.1.3-2.1.8-3 2.7.5 5.1 2.2 6.8 4.8.7 1.1 1.5 2.1 2.4 2.9-.9.4-1.9.7-2.9.8-.5-.7-1.3-1.4-2.3-1.7-.4-.1-.8.3-.6.7.2.5.4 1 .5 1.6-.1.1-.1.1-.2.1zm4.6-4.7c-.8-.3-1.6-1-2.1-1.8.8-.3 1.7.1 2.2.8.4.5.4 1.1-.1 1z" />
+    </g>
+
+    <!-- 5. Google Antigravity (4-color curved arch) -->
+    <g id="logo-antigravity" transform="translate(-12, -12)">
+      <g clip-path="url(#antigravityClip)">
+        <rect x="0" y="0" width="24" height="24" fill="#3186FF" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#agGreen)" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#agRed)" />
+        <rect x="0" y="0" width="24" height="24" fill="url(#agYellow)" />
+      </g>
+    </g>
+
+    <!-- 6. 9Router (Orange rounded square + bold white 9R) -->
+    <g id="logo-9router" transform="translate(-12, -12)">
+      <rect x="1.5" y="1.5" width="21" height="21" rx="5.2" fill="url(#routerBgGrad)" />
+      <text x="12" y="16.2" text-anchor="middle" class="router-text">9R</text>
+    </g>
+
+    <!-- 7. NousResearch Hermes (Refined high-contrast monochrome portrait matching hermes_2.svg) -->
+    <g id="logo-hermes" transform="translate(-12, -12)">
+      <g clip-path="url(#hermesClip)">
+        <rect x="0.5" y="0.5" width="23" height="23" rx="5" fill="#FFFFFF" />
+        <!-- Outer hair dome, right side locks, bottom flicks -->
+        <path fill="#0B0F19" d="M12.3 1.4c-3.9 0-7.2 1.8-8.6 5.2H2.5c-.4 0-.7.3-.7.7v2.7c0 .5.4.9.9 1l1.2.2v4.8c0 1.3-.7 2-1.6 1.8-.3-.1-.6-.6-.6-1.2 0-.4-.5-.4-.6 0-.2 1.7.5 3.4 2.1 4.1 1.1.5 2.4.4 3.4-.2.4 1.3 1.4 2.2 3.1 2.2h4.2c1.6 0 3.1-.5 4.4-1.4.8.6 1.7.9 2.6.8-.9-1.1-1.3-2.5-1.3-4.2l-.2-7.8c-.1-4.8-2.6-8.7-6.5-8.7z" />
+        <!-- Curved white headband sweeping top-center to right -->
+        <path fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" d="M11.6 2.3c2.1 1.1 3.3 3.2 3.7 5.8" />
+        <!-- Soft white hair highlight above bangs -->
+        <path fill="none" stroke="#FFFFFF" stroke-width="1.05" stroke-linecap="round" d="M5.1 6.1c1.7-.9 3.8-1.1 5.9-.5" />
+        <!-- Lit white face (3/4 view facing left) -->
+        <path fill="#FFFFFF" d="M5 10.1c-.1 3.8 1.4 7.7 4.6 7.7 2.4 0 3.7-2.2 3.8-5.9 0-.7-.1-1.3-.2-1.8-2.7.2-5.5.2-8.2 0z" />
+        <!-- Subtle vertical fringe strand between eyes -->
+        <path fill="#0B0F19" d="M7.6 9.9h1.1l-.2 2.2h-.7z" />
+        <!-- Left eye (edge) & right eye (almond) -->
+        <ellipse cx="5.9" cy="12.1" rx="0.65" ry="0.85" fill="#0B0F19" />
+        <path fill="#0B0F19" d="M8.6 11.7c.8-.3 1.9-.3 2.5.2-.4.7-1.6 1-2.3.5-.2-.1-.3-.5-.2-.7z" />
+        <!-- Mouth / lips -->
+        <path fill="none" stroke="#0B0F19" stroke-width="1" stroke-linecap="round" d="M6.2 14.9c.7.2 1.4.2 2 0" />
+        <!-- Neck highlight under chin -->
+        <path fill="#FFFFFF" d="M9.6 18.8h2.6l-.5 2.4H9.1z" />
+        <!-- Distinctive white S-curve shine on right hair lock -->
+        <path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" d="M15.4 14.9c-.8.4-.9 1.2-.1 1.6.7.3.6 1.1-.2 1.4" />
+      </g>
+    </g>
+  </defs>
+
+  <!-- Main Card -->
+  <rect x="2" y="2" width="836" height="326" rx="18" fill="url(#cardBg)" stroke="url(#cardBorder)" stroke-width="1.2" />
+
+  <!-- Subtle Starry Dots around Orbit -->
+  <g fill="#94a3b8" opacity="0.55">
+    <circle cx="46" cy="48" r="1.4" />
+    <circle cx="385" cy="56" r="1.3" />
+    <circle cx="32" cy="172" r="1.1" />
+    <circle cx="402" cy="182" r="1.4" />
+    <circle cx="62" cy="288" r="1.3" />
+    <circle cx="368" cy="296" r="1.2" />
+  </g>
+
+  <!-- ================= LEFT: ORBIT SYSTEM (center 215, 165) ================= -->
+  <circle cx="215" cy="165" r="78" fill="url(#centerAura)" />
+
+  <!-- Orbit Tracks -->
+  <circle cx="215" cy="165" r="76" fill="none" stroke="#94a3b8" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="3 5" />
+  <circle cx="215" cy="165" r="126" fill="none" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="1.2" stroke-dasharray="3 6" />
+
+  <!-- Center Glowing Ring + Emblem (Purple & Pink Crystal Flower + Heart) -->
+  <g transform="translate(215, 165)">
+    <circle cx="0" cy="0" r="42" fill="#111420" stroke="url(#centerRingGrad)" stroke-width="2" filter="url(#softGlow)" />
+    <circle cx="0" cy="0" r="39" fill="#0e111a" />
+
+    <g transform="scale(0.62) translate(-50, -52)">
+      <polygon fill="#A475E8" points="62,2 67,16 61,27 56,15" />
+      <path fill="#A475E8" d="M22,26 C11,40 8,62 18,80 C24,89 35,95 47,96 L43,89 C32,87 24,80 21,69 L15,71 L21,59 L12,48 L22,50 C20,41 21,33 25,25 Z" />
+      <path fill="#A475E8" d="M76,24 C89,37 92,60 82,79 C76,89 65,95 53,96 L57,89 C68,87 76,80 79,68 L86,70 L80,58 L90,46 L79,48 C81,39 79,31 74,24 Z" />
+      <path fill="#A475E8" d="M40,89 C46,92 49,96 50,103 C51,96 54,92 60,89 L50,94 Z" />
+      <path fill="#F4A3D0" d="M50,74 C36,72 22,63 17,50 C28,51 37,55 44,62 C38,50 38,37 46,27 C49,38 51,48 52,58 C56,46 63,37 74,31 C71,43 66,52 59,60 C68,54 78,52 87,54 C79,65 66,72 50,74 Z" />
+      <path fill="#F4A3D0" d="M49,73 C40,76 34,82 33,91 C41,87 47,82 50,76 C53,82 59,87 67,91 C66,82 60,76 51,73 Z" />
+      <path fill="#F9C0DF" d="M28,39 C33,42 37,47 39,53 C32,51 28,46 28,39 Z" />
+      <path fill="none" stroke="#A475E8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" d="M47,68 C37,62 32,53 39,43 C44,36 40,29 34,24" />
+      <path fill="#A475E8" d="M42,30 L57,22 L52,33 L42,35 Z" />
+      <path fill="none" stroke="#A475E8" stroke-width="2.6" stroke-linecap="round" d="M53,67 C57,57 59,48 63,40" />
+      <path fill="#A475E8" d="M50,77 C44,72 39,68 39,63.5 C39,60.2 41.6,58 44.6,58 C46.8,58 48.8,59.3 50,61.2 C51.2,59.3 53.2,58 55.4,58 C58.4,58 61,60.2 61,63.5 C61,68 56,72 50,77 Z" />
+    </g>
+  </g>
+
+  <!-- ================= INNER ORBIT: ASSISTANTS (4 items, clockwise 34s) ================= -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 215 165" to="360 215 165" dur="34s" repeatCount="indefinite" />
+
+    <!-- Gemini -->
+    <g transform="translate(215, 89)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="34s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-gemini" />
+      </g>
+    </g>
+
+    <!-- Claude -->
+    <g transform="translate(291, 165)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="34s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-claude" />
+      </g>
+    </g>
+
+    <!-- ChatGPT -->
+    <g transform="translate(215, 241)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="34s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-chatgpt" />
+      </g>
+    </g>
+
+    <!-- DeepSeek -->
+    <g transform="translate(139, 165)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="34s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-deepseek" />
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= OUTER ORBIT: TOOLS (3 items, counter-clockwise 46s) ================= -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 215 165" to="0 215 165" dur="46s" repeatCount="indefinite" />
+
+    <!-- Google Antigravity -->
+    <g transform="translate(324, 102)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="46s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-antigravity" />
+      </g>
+    </g>
+
+    <!-- 9Router -->
+    <g transform="translate(215, 291)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="46s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-9router" />
+      </g>
+    </g>
+
+    <!-- HermesAgent -->
+    <g transform="translate(106, 102)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="46s" repeatCount="indefinite" />
+        <use href="#icon-tile" />
+        <use href="#logo-hermes" />
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: LEGEND & LIST ================= -->
+  <g transform="translate(445, 52)">
+    <text x="0" y="0" class="title-mono">
+      <tspan fill="#c084fc">→</tspan>
+      <tspan fill="#e2e8f0" font-weight="600"> ai-orbit</tspan>
+      <tspan> // assistants + agentic tools</tspan>
+    </text>
+
+    <!-- Section 1: ASSISTANTS -->
+    <g transform="translate(0, 44)">
+      <text x="0" y="0" class="section-label" fill="#7aa2f7">ASSISTANTS</text>
+
+      <circle cx="5" cy="28" r="4" fill="#7aa2f7" />
+      <text x="20" y="33" class="item-text">Gemini</text>
+
+      <circle cx="175" cy="28" r="4" fill="#7aa2f7" />
+      <text x="190" y="33" class="item-text">Claude</text>
+
+      <circle cx="5" cy="60" r="4" fill="#7aa2f7" />
+      <text x="20" y="65" class="item-text">ChatGPT</text>
+
+      <circle cx="175" cy="60" r="4" fill="#7aa2f7" />
+      <text x="190" y="65" class="item-text">DeepSeek</text>
+    </g>
+
+    <line x1="0" y1="138" x2="345" y2="138" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+    <!-- Section 2: TOOLS -->
+    <g transform="translate(0, 174)">
+      <text x="0" y="0" class="section-label" fill="#c084fc">TOOLS</text>
+
+      <circle cx="5" cy="28" r="4" fill="#c084fc" />
+      <text x="20" y="33" class="item-text">Antigravity</text>
+
+      <circle cx="175" cy="28" r="4" fill="#c084fc" />
+      <text x="190" y="33" class="item-text">9Router</text>
+
+      <circle cx="5" cy="60" r="4" fill="#c084fc" />
+      <text x="20" y="65" class="item-text">HermesAgent</text>
+    </g>
+  </g>
+</svg>
