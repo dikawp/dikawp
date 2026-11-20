@@ -33,15 +33,14 @@ var dikawp = map[string]any{
     "email":   "ramadika380@gmail.com",
 }
 ```
+<picture>
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/sections/tech.svg" />
+  <img src="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/sections/tech.svg" width="100%" alt="Tech and tools I build with" />
+</picture>
 
 <picture>
   <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/tech.svg" />
   <img src="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/content/tech.svg" width="100%" alt="Tech Stack" />
-</picture>
-
-<picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/sections/tech.svg" />
-  <img src="https://raw.githubusercontent.com/dikawp/dikawp/main/assets/sections/tech.svg" width="100%" alt="Tech and tools I build with" />
 </picture>
 
 <picture>
