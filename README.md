@@ -68,4 +68,4 @@ var dikawp = map[string]any{
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true&card_width=365" width="49.5%" alt="Top Languages" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dikawp&theme=tokyo-night&hide_border=true&area=true&radius=10" width="100%" alt="activity graph" />
 </div>
-<img src="https://count.getloli.com/@:dikawp?theme=eva&padding=7&scale=1&align=top&pixelated=1&darkmode=auto" alt="profile views" />
+
