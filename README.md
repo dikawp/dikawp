@@ -66,6 +66,5 @@ var dikawp = map[string]any{
 <div align="center">
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=dikawp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49.5%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=dikawp&layout=compact&theme=tokyonight&hide_border=true&card_width=365" width="49.5%" alt="Top Languages" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dikawp&theme=tokyo-night&hide_border=true&area=true&radius=10" width="100%" alt="activity graph" />
 </div>
 
